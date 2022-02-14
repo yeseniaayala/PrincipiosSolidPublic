@@ -6,7 +6,7 @@ namespace OCP_PrincipioAbiertoCerrado
     {
         public string Nombre { get; set; }
 
-        public string TipoAnimal { get; set; }
+        public TipoAnimal TipoAnimal { get; set; }
 
         public string Sexo { get; set; }
     }

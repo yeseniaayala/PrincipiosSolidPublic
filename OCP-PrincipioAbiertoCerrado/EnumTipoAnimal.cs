@@ -6,18 +6,22 @@ using System.Threading.Tasks;
 
 namespace OCP_PrincipioAbiertoCerrado
 {
-    public class EnumTipoAnimal
+   // public class EnumTipoAnimal
+   public enum TipoAnimal
     {
-        public List<string> Value { get; set; }
+        //public List<string> Value { get; set; }
         
 
-        private EnumTipoAnimal(List<string> value)
-        {
-            Value = value;
-        }
+        //private EnumTipoAnimal(List<string> value)
+        //{
+        //    Value = value;
+        //}
 
-        public static EnumTipoAnimal TipoAnimal { get { return new EnumTipoAnimal(new List<string>() { "Carnivoros", "Herbivoros", "Omnivoros" }); } }
+        //public static EnumTipoAnimal TipoAnimal { get { return new EnumTipoAnimal(new List<string>() { "Carnivoros", "Herbivoros", "Omnivoros" }); } }
 
 
+        carnivoro, 
+        herbivoro,
+        omnivoro
     }
 }

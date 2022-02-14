@@ -6,22 +6,22 @@ using System.Threading.Tasks;
 
 namespace OCP_PrincipioAbiertoCerrado
 {
-    public class Alimentacion : CaracteristicasAnimales
+    public class Alimentacion
     {
 
         public EnumTipoAlimentos GetAlimentacion( CaracteristicasAnimales caracteristicasAnimales)
         {
-            if (caracteristicasAnimales.TipoAnimal == EnumTipoAnimal.TipoAnimal.Value[0])
+            if (caracteristicasAnimales.TipoAnimal == TipoAnimal.carnivoro)
             {
                 return EnumTipoAlimentos.AlimentosCarnivoros;
             }
 
-            if (caracteristicasAnimales.TipoAnimal == EnumTipoAnimal.TipoAnimal.Value[1])
+            if (caracteristicasAnimales.TipoAnimal == TipoAnimal.herbivoro)
             {
                 return EnumTipoAlimentos.AlimentosHerbivoros;
             }
 
-            if (caracteristicasAnimales.TipoAnimal == EnumTipoAnimal.TipoAnimal.Value[2])
+            if (caracteristicasAnimales.TipoAnimal == TipoAnimal.omnivoro)
             {
                 return EnumTipoAlimentos.AlimentosOmnivoros;
             }
