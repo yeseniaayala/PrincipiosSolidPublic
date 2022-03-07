@@ -7,7 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrincipiosSOLID", "Principi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OCP-PrincipioAbiertoCerrado", "OCP-PrincipioAbiertoCerrado\OCP-PrincipioAbiertoCerrado.csproj", "{92C1A6C0-37FA-439B-9B40-8B266E8A490F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LSP-Liskov-Substitution-Principle", "LSP-Liskov-Substitution-Principle\LSP-Liskov-Substitution-Principle.csproj", "{DD1F3989-AC91-417A-B29B-76D01CB73AA0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LSP-Liskov-Substitution-Principle", "LSP-Liskov-Substitution-Principle\LSP-Liskov-Substitution-Principle.csproj", "{DD1F3989-AC91-417A-B29B-76D01CB73AA0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ISP-Interface-Segregation-Principle", "ISP-Interface-Segregation-Principle\ISP-Interface-Segregation-Principle.csproj", "{7CEC0E15-35C9-41F8-970B-CECD6D3A67D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIP-Dependency-Inversion-principle", "DIP-Dependency-Inversion-principle\DIP-Dependency-Inversion-principle.csproj", "{C72C01E8-CAEC-4FFC-95E5-983A821ADAD2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{DD1F3989-AC91-417A-B29B-76D01CB73AA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD1F3989-AC91-417A-B29B-76D01CB73AA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD1F3989-AC91-417A-B29B-76D01CB73AA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CEC0E15-35C9-41F8-970B-CECD6D3A67D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CEC0E15-35C9-41F8-970B-CECD6D3A67D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CEC0E15-35C9-41F8-970B-CECD6D3A67D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CEC0E15-35C9-41F8-970B-CECD6D3A67D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C72C01E8-CAEC-4FFC-95E5-983A821ADAD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C72C01E8-CAEC-4FFC-95E5-983A821ADAD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C72C01E8-CAEC-4FFC-95E5-983A821ADAD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C72C01E8-CAEC-4FFC-95E5-983A821ADAD2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
